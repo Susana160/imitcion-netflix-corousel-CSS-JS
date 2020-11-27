@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Búsqueda GIPHY</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logo">Logotipo</h2>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#">Programas</a>
+                <a href="#">Peliculas</a>
+                <a href="#">Más recientes</a>
+                <a href="#">Mi lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">The Crown</h3>
+                <p class="descripcion">Drama sobre las rivalidades políticas y los romances acaecidos durante el reinado de Isabel II, así como de los eventos que moldearían la segunda mitad del siglo XX.</p>
+                <button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+                <button role="button" class="boton"><i class="fas fa-info-circle"></i>Más infomación</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="peliculas-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+            <h3>Peliculas Recomendadas</h3>
+            <div class="indicadores"></div>
+        </div>
+
+        <div class="contenedor-principal">
+            <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+            <div class="contenedor-corousel">
+                <div class="contenedor-corousel">
+                    <div class="peliculas">
+                        <a href="#"><img src="assets/1.jpg" alt="pelicula 1"></a>
+                    </div>
+                    <div class="peliculas">
+                        <a href="#"><img src="assets/2.jpg" alt="pelicula 2"></a>
+                    </div>
+                    <div class="peliculas">
+                        <a href="#"><img src="assets/3.jpg" alt="pelicula 3"></a>
+                    </div>
+                    <div class="peliculas">
+                        <a href="#"><img src="assets/4.jpg" alt="pelicula 4"></a>
+                    </div>
+                    <div class="peliculas">
+                        <a href="#"><img src="assets/5.jpg" alt="pelicula 5"></a>
+                    </div>
+                    <div class="peliculas">
+                        <a href="#"><img src="assets/6.jpg" alt="pelicula 6"></a>
+                    </div>
+                    <div class="peliculas">
+                        <a href="#"><img src="assets/7.jpg" alt="pelicula 7"></a>
+                    </div>
+                </div>
+            </div>
+
+            <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+        </div>
+    </div>
+
+    <!-- <input type="search" name="" id="" class="barraBuscadora" placeholder="Busca GIFOS y más">
+    <button type="submit" id="subit_btn"><img src="icon-search.svg" alt="hello"></button> -->
+
+    <script src="js/main.js"></script>
+</body>
+</html>
