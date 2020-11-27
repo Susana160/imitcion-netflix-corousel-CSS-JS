@@ -69,7 +69,7 @@ header nav a.activo {
 }
 
 .contenedor-titulo-controles .indicadores button:hover,
-.contenedor-titulo-controles .indicadores button:active {
+.contenedor-titulo-controles .indicadores button.activo {
     background-color: #E50914;
 }
 
@@ -184,18 +184,18 @@ header nav a.activo {
     flex-wrap: nowrap;
 }
 
-.peliculas-recomendadas .contenedor-corousel .carousel .peliculas {
+.peliculas-recomendadas .contenedor-corousel .carousel .pelicula {
     min-width: 20%;
     transition: .3s ease all;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.peliculas-recomendadas .contenedor-corousel .carousel .peliculas.hover { /*puede que sea posible pasarlo a :hover*/
+.peliculas-recomendadas .contenedor-corousel .carousel .pelicula.hover { /*puede que sea posible pasarlo a :hover*/
     transform: scale(1.2);
     transform-origin: center;
 }
 
-.peliculas-recomendadas .contenedor-corousel .carousel .peliculas img {
+.peliculas-recomendadas .contenedor-corousel .carousel .pelicula img {
     width: 100%;
     vertical-align: top;
 }
